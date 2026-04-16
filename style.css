@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Inconsolata:wght@200..900&family=Sixtyfour+Convergence&family=Supermercado+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Bitcount+Prop+Double:wght@100..900&family=Dokdo&family=Inconsolata:wght@200..900&family=Sixtyfour+Convergence&family=Supermercado+One&display=swap");
 body {
   display: flex;
   align-items: center;
@@ -6,6 +8,7 @@ body {
   padding: 0;
   background-color: #282866;
   min-height: 100vh;
+  font-family: Inconsolata;
 }
 
 h1 {
@@ -13,63 +16,96 @@ h1 {
   color: #ffffff;
   top: 20px;
   left: 20px;
-  background-color: #5D5C98;
+  padding: 10px;
+  font-family: Bitcount Prop double;
 }
 
 #control {
   display: grid;
   position: relative;
-  top: 100px;
+  top: 60px;
   grid-template-columns: repeat(3, auto);
   gap: 20px;
 }
 
-#control >button{
-    border-radius: 8px;
-    width: 140px;
-    height:60px ;
-    font-size: large;
-    background-color: #CACCFD;
+#control > button {
+  border-radius: 8px;
+  width: 140px;
+  height: 60px;
+  font-size: large;
+  background-color: #caccfd;
+}
 
+#control > button:hover{
+  font-size: larger;
+  border: white;
+  cursor: pointer;
 }
 
 #playerdata {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 10px 1fr;
   gap: 200px;
 }
 
-#player1{
-    position: relative;
-    bottom: 130px;
-    font-size: x-large;
+#player1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 95px;
+  font-size: x-large;
+  background-color: #caccfd;
+  border-radius: 8px;
+  width: 140px;
+  height: 60px;
 }
-#cpu{
-    position: relative;
-    bottom: 160px;
-    font-size: x-large;
+#cpu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 160px;
+  font-size: x-large;
+  background-color: #caccfd;
+  border-radius: 8px;
+  width: 140px;
+  height: 60px;
+}
+#VS {
+  display: flex;
+  align-items: center;
+  font-size: xx-large;
+  color: white;
 }
 .playercard {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #5D5C98;
+  background-color: #5d5c98;
   width: 500px;
   height: 500px;
   border-radius: 15px;
 }
 
-#Scoreplayer{
-    position: relative;
-    top: 150px;
-    right: 200px;
-    font-size: x-large;
+#Scoreplayer {
+  position: relative;
+  top: 100px;
+  right: 200px;
+  font-size: x-large;
 }
 
-#Scorecpu{
-    position: relative;
-    top:175px;
-    right:200px;
-    font-size: x-large;
-} 
+#Scorecpu {
+  position: relative;
+  top: 165px;
+  right: 200px;
+  font-size: x-large;
+}
+
+#choice {
+  font-size: x-large;
+  position: relative;
+  top: 70px;
+  right: 130px;
+}
