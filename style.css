@@ -92,14 +92,14 @@ h1 {
 #Scoreplayer {
   position: relative;
   top: 100px;
-  right: 200px;
+  right: 190px;
   font-size: x-large;
 }
 
 #Scorecpu {
   position: relative;
   top: 165px;
-  right: 200px;
+  right: 190px;
   font-size: x-large;
 }
 
@@ -119,6 +119,14 @@ h1 {
   position: absolute;
   bottom: 250px;
   left: 50%;
+  width: 400px;
   transform: translateX(-50%);
   pointer-events: none;
+}
+
+#nerd{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
 }
