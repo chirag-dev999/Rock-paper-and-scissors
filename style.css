@@ -130,3 +130,22 @@ h1 {
   justify-content: center;
   position: absolute;
 }
+
+#Res{
+  position: relative;
+  top: 430px;
+  right:1570px;
+  height: 50px;
+  width: 100px;
+  border-radius: 8px;
+  background-color: #caccfd;
+  font-size: large;
+  font: bold;
+}
+
+#Res:hover{
+   font-size: larger;
+  border: white;
+  cursor: pointer;
+
+}
